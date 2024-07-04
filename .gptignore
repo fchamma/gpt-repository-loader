@@ -1,18 +1,61 @@
+# Byte-compiled / optimized / DLL files / cache / logs
 __pycache__/
+.mypy_cache/*
 *.pyc
 *.log
-.git/*
-.gptignore
-LICENSE
-.github/*
-.tox/*
-.mypy_cache/*
+*.vscode*
+*.egg-info/
+
+# Distribution / packaging
 *.whl
 *.tar
 *.tar.gz
-.gitignore
+
+# Environment files
 *.env*
+
+# Image files
 *.png
 *.jpeg
 *.jpg
+
+# Data files
+*.csv
+*.xls*
+data/*
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Test files
+*_test*
+
+# Shell scripts
+*.sh
+
+# Virtual environment
+venv/
+venv/*
+
+# Project-specific samples
+projects/*/sample_*/*
+
+# Archive directory
+*archive/*
+
+# Miscellaneous
+LICENSE
+*.txt
 *bin/*
+*/__repotree**
+*.DS_Store
+*.db
+
+# Ignore gitignore and gptignore files to avoid recursive inclusion
+.gitignore
+.gptignore
+
+# Git related
+.git/*
+.github/*
